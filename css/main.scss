@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$base-font-family: 'Montserrat', sans-serif;
+$deco-font-family: 'Libre Baskerville', serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -15,7 +16,7 @@ $base-letter-spacing: .04rem;
 $spacing-unit:     30px;
 
 $text-color:       #ffffff;
-$background-color: #000000;
+$background-color: #29232d;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -49,5 +50,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "home"
 ;

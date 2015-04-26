@@ -5,18 +5,42 @@
 
   <body>
 
-    <!-- {% include header.html %} -->
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="page-content page-content--home">
+      <div class="wrapper wrapper--home">
         <a href="/" class="logo">
           <img alt="Good Habit Co." src="img/ghco-logo.svg">
         </a>
-        {% include about.html %}
-      </div>
-    </div>
 
-    <!-- {% include footer.html %} -->
+        {% include about.html %}
+
+      </div>
+
+      <div class="links--home">
+        <div class="contact">
+          {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="fa fa-twitter-square fa-2x">
+            </a>
+          {% endif %}
+
+          {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" class="fa fa-instagram fa-2x">
+            </a>
+          {% endif %}
+
+          {% if site.instagram_username %}
+            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank" class="fa fa-facebook-square fa-2x">
+            </a>
+          {% endif %}
+          <ul class="contact-list">
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          </ul>
+        </div>
+        <div class="store">
+          <button class="store-btn">Visit our Store</button>
+        </div>
+      </div>
+
+    </div>
 
   </body>
 

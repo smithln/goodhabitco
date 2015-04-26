@@ -103,6 +103,18 @@ a {
     }
 }
 
+button {
+  border: 2px solid white;
+  border-radius: 0;
+  background-color: transparent;
+  color: white;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  letter-spacing: .1rem;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+
 
 
 /**
