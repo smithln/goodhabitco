@@ -9,10 +9,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 
-twitter_username: goodhabitco
+twitter_username: goodhabit_co
 instagram_username: goodhabitco
-facebook_username: goodhabitco
-github_username:  smithln
+facebook_username: goodhabitcompany
+etsy_username: goodhabitco
 
 # Build settings
 markdown: kramdown

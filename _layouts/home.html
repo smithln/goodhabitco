@@ -36,7 +36,10 @@
           </ul>
         </div>
         <div class="store">
-          <button class="store-btn">Visit our Store</button>
+          {% if site.etsy_username %}
+            <a href="https://www.etsy.com/people/{{ site.etsy_username }}"<button class="store-btn">Visit our Store</button>
+          {% endif %}
+
         </div>
       </div>
 
